@@ -1,5 +1,7 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
+
+# to publish on github page
 gem 'github-pages', group: :jekyll_plugins
-gem "jekyll-github-metadata"
-gem "jekyll-octicons"
-gem "jemoji"
+
+# to publich without github page
+#gem "jekyll"
